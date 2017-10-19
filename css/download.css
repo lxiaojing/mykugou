@@ -1,0 +1,159 @@
+
+/*myNav我的位置*/
+.navPosition{
+	width:100%;
+	height:40px;
+	text-align:center;
+}
+.myNav{
+	display:inline-block;
+	width:1000px;
+	height:25px;
+	margin:0 auto;
+	padding:7.5px 0px;
+	line-height: 25px;
+	text-align:left;
+	background-color:#fff;
+	font-size:13px;
+	color:#999;
+}
+.navPosition>.myNav a{
+	color:#999;
+}
+.navPosition>.myNav a:hover{
+	color:#169af3;
+}
+/*download-1  立即下载*/
+.kugouDownload{
+	width:100%;
+	height:355px;
+	background:#f8f8f8;
+}
+.kugouDownload>.download-page{
+	margin:0 auto;
+	width:1000px;
+	padding:0 20px;
+	height:355px;
+}
+.download-page>div{
+	width:270px;
+	height:215px;
+	padding:20px;
+	margin:50px 15px 0 0;
+	display:inline-block;
+	background:#fff;
+	box-shadow: 0 0 20px rgba(0,0,0,0.04);
+}
+.download-page>div:hover{
+	box-shadow:0 0 20px rgba(0,0,0,.4);
+}
+.download-page>div:hover>.types>a>.title{
+	color: #28a9f3;
+}
+.download-page>div>div:nth-child(1){
+	width:100%;
+	height:21px;
+	text-align:right;
+	color:#c3c3c3;
+	font-size:14px;
+}
+.types>a{
+	width: 280px;
+	height: 115px;
+	text-align:center;
+	color:#000;
+	font-size:18px;
+}
+.download-page>div>div:nth-child(3){
+	width: 280px;
+	height: 21px;
+	margin-top:3px;
+	display:block;
+	color:#a2a2a2;
+	font-size:14px;
+	text-align:center;
+}
+.download-page>div>a{
+	display:block;
+	width: 180px;
+	height: 36px;
+	line-height:36px;
+	margin:0 auto;
+	margin-top:22px;
+	background-color: #28a9f3;
+	color:#fff;
+	font-size:14px;
+	text-align: center;
+}
+.download-page>div>a:hover{
+	background-color: #2879ff;
+}
+.download-page>div>a>span{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	background:url("../img/images/icon_splice.png") no-repeat -87px -113px;
+}
+/*tuijianDownload 推荐下载*/
+.tuijianDownload{
+	width:100%;
+	height:820px;
+	background-color:#eeeff0;
+}
+.tuijianDownload>.mainPage{
+	margin:0 auto;
+	width:1000px;
+	padding:0 20px;
+	height:820px;
+}
+.tuijianDownload>.mainPage>div:first-child{
+	margin-top:50px;
+}
+.tuijianDownload>.mainPage>div{
+	width:310px;
+	height:92px;
+	padding:16px 0;
+	margin-bottom:20px;
+	margin-right:20px;
+	display:inline-block;
+	background:#fff;
+	box-shadow: 0 0 20px rgba(0,0,0,0.04);
+}
+.tuijianDownload>.mainPage>div:hover{
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/*left 图片链接*/
+.tuijianDownload>.mainPage>div>.left{
+	width:110px;
+	height:52px;
+	text-align:center;
+	padding:20px 0;
+}
+/*right*/
+.right>a:first-child{
+	color:#333;
+	font-size:16px;
+}
+.right>a:first-child:hover{
+	color:#169af3;
+}
+.right{
+	line-height:30px;
+}
+.right>p{
+	color:#a2a2a2;
+	font-size:14px;
+}
+.right>a:nth-child(3){
+	width: 80px;
+	height: 26px;
+	background-color: #28a9f3;
+	color:#fff;
+	line-height:26px;
+	font-size:14px;
+	text-align: center;
+}
+.right>a:nth-child(3):hover{
+	background-color: #2879ff;
+}

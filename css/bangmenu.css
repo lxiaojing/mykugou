@@ -1,0 +1,337 @@
+
+/*榜单主体*/
+.menuContent{
+	width:100%;
+}
+.menu{
+	width:1000px;
+	height:1458px;
+	margin:0 auto;
+	margin-top:40px;
+}
+.menuAside{
+	width:220px;
+	height:1357px;
+}
+.menuBox{
+	width:750px;
+	height:1443px;
+}
+/*侧边栏*/
+.menuAside>h3{
+	width:203px;
+	height:45px;
+	font-size:16px;
+	font-weight:400;
+	padding-left:15px;
+	color:#555;
+	position:relative;
+	border:1px solid #ccc;
+	border-bottom:none;
+	cursor:pointer;
+	line-height:45px;
+}
+.menuAside>h3:nth-of-type(3){
+	border-bottom:1px solid  #ccc;
+}
+.menuAside>ul{
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.menuAside>ul:last-of-type{
+	border-bottom:1px solid #ccc;
+}
+h3>div{
+	height:45px;	
+	line-height:45px;	
+}
+h3>span{
+	position:absolute;
+	right:10px;
+	top:20px;
+	width: 20px;
+	height:5px;
+	display:block;
+	background:url("../img/images/icon_splice.png") no-repeat -446px -120px;
+}
+h3>div:hover+span{
+	background:url("../img/images/icon_splice.png") no-repeat -446px -60px;
+}
+h3>.close{
+	background:url("../img/images/icon_splice.png") no-repeat -477px -120px;
+}
+h3>div:hover+.close{
+	background:url("../img/images/icon_splice.png") no-repeat -477px -60px;
+}
+.menuAside>ul .bang-show{
+	background:#169af3;
+}
+.menuAside>ul .bang-show a{
+	color:#fff;
+}
+.menuAside>ul li a{
+	padding-left:15px;
+	font-size:14px;
+	width: 203px;
+	color:#555;
+	height: 36px;
+}
+.menuAside>ul li:hover a{
+	color:#169af3;
+}
+.menuAside>ul .bang-show:hover a{
+	color:#fff;
+}
+.menuAside>ul li a>span{
+	margin-top:5px;
+	display:inline-block;
+	height:20px;
+	line-height:25px;	
+}
+.menuAside>ul li a>span:nth-child(3){
+	width:25px;
+	background:url("../img/images/icon_splice.png") no-repeat -508px -238px;
+}
+.menuAside>ul li:nth-child(5) a>span:nth-child(3){
+	width:25px;
+	background:url("../img/images/icon_splice.png") no-repeat -533px -238px;
+}
+.menuAside>ul li:nth-child(1) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-1.png") no-repeat 0px 5px;
+}	
+.menuAside>ul li:nth-child(2) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-2.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(3) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-3.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(4) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-4.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(5) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-5.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(6) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-6.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(7) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-7.png") no-repeat 0px 5px;
+}	
+.menuAside>ul li:nth-child(8) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-8.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(9) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-9.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(10) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-11.jpg") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(11) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-11.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(12) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-12.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(13) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-13.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(14) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-14.png") no-repeat 0px 5px;
+}
+.menuAside>ul li:nth-child(15) a>span:nth-child(1){
+	width:15px;
+	background:url("../img/bangmenu-img/aside-12.png") no-repeat 0px 5px;
+}
+
+/*主要歌单部分menuBox*/
+/*title*/
+.menuBox>div{
+	width:100%;
+	margin:0 auto;
+}
+.menuBox>div:nth-child(1){
+	height:58px;
+	border-bottom:1px dotted #cacaca;
+	padding-top:10px;
+	margin-bottom:15px;
+}
+.menuBox>div:nth-child(3){
+	height:121px;
+}
+.menuBox div span:nth-child(1){
+	font-size:24px;
+	font-weight:400;
+	color:#333;
+}
+.menuBox div span:nth-child(2){
+	color:#999;
+	font-size:14px;
+	margin-left:10px;
+}
+.menuBox div a{
+	width: 112px;
+	height: 34px;
+	background-color:#169af3;
+	color:#fff;
+	font-size:14px;
+	line-height:34px;
+	text-align:center;
+	border-radius:3px;
+}
+.menuBox div a:hover{
+	background-color:#167af3;
+}
+.menuBox div>a>span{
+	width:12px;
+	height:12px;
+	margin-top:6px;
+	display:inline-block;
+	background:url("../img/bangmenu-img/play_icon.png") no-repeat 0px 0px;
+	background-size:contain;
+}
+/*全选*/
+.menuBox>div:nth-child(2){
+	width:740px;
+	padding-left:10px;
+	height:31px;
+	color:#999;
+	font-size:14px;
+}
+.menuBox>.choice>span{
+	width:15px;
+	height:28px;
+	cursor:pointer;
+	display:inline-block;
+	background:url("../img/download-img/search_input.png") no-repeat -64px -76px;
+}
+.menuBox>.all>span{
+	background:url("../img/download-img/search_input.png") no-repeat -64px -46px;
+}
+.menuBox>div:nth-child(3){
+	width:100%;
+	height:1210px;
+}
+/*歌曲菜单*/
+.menulist ul{
+	width: 750px;
+	height: 1210px;
+}
+.menulist ul li{
+	width:100%;
+	height:55px;
+	cursor:pointer;
+	border-bottom:1px solid #f2f2f2;
+}
+.menulist ul li:hover{
+	background-color:#eef;
+}
+/*歌曲列表*/
+.menulist ul li div{
+	display:inline-block;
+	vertical-align:middle;
+	color:#999;
+	font-size:14px;
+}
+.menulist .fr{
+	padding-right:8px;
+}
+.menulist ul li>.current{
+	height:16px;
+	width:16px;
+	cursor:pointer;
+	margin-left:8px;
+	background:url("../img/download-img/search_input.png") no-repeat -63px -85px;
+		
+}
+.menulist ul li .show{
+	background:url("../img/download-img/search_input.png") no-repeat -63px -55px;			
+}
+.menulist ul li div:nth-child(2){
+	width:15px;
+	height:54px;
+	line-height: 54px;
+	display:inline-block;
+	font-size:16px;
+	font-weight:400px;
+}
+.menulist ul li:hover div:nth-child(2){	
+	color:#999;
+}
+.menulist ul li:nth-child(1) div:nth-child(2){	
+	font-size:18px;
+	color:#fe2c62;
+}
+.menulist ul li:nth-child(2) div:nth-child(2){	
+	font-size:18px;
+	color:#fe2c62;
+}
+.menulist ul li:nth-child(3) div:nth-child(2){	
+	font-size:18px;
+	color:#fe2c62;
+}
+.menulist ul li div:nth-child(3){
+	/*height:54px;*/
+	font-size:14px;
+	color:#333;
+}
+.menulist ul li div div  a{
+	width:14px;
+	height:14px;
+	padding-left:5px;
+	visibility:hidden;	
+}
+.menulist ul li:hover div div a{
+	visibility:visible;
+	background-color:#eef;
+}
+.menulist ul li:hover div div{
+	color:#169af3;
+}
+
+.menulist ul li div div:nth-child(1) a{
+	background:url("../img/images/icon_splice.png") no-repeat 3px 0px;
+}
+.menulist ul li div div:nth-child(1) a:hover{	
+	background:url("../img/images/icon_splice.png") no-repeat 3px -30px;
+}
+.menulist ul li div div:nth-child(2) a{
+	background:url("../img/images/icon_splice.png") no-repeat -90px 0px;
+}
+.menulist ul li div div:nth-child(2) a:hover{
+	background:url("../img/images/icon_splice.png") no-repeat -90px -30px;
+}
+.menulist ul li div div:nth-child(3) a{
+	background:url("../img/images/icon_splice.png") no-repeat -300px 0px;
+}
+.menulist ul li div div:nth-child(3) a:hover{
+	background:url("../img/images/icon_splice.png") no-repeat -300px -30px;
+}
+/*立即下载*/
+.menuDownload{
+	width:100%;
+	height:30px;
+	text-align:center;
+	color:#666;
+}
+.menuDownload div{
+	display:inline-block;
+	line-height:30px;
+	margin-right:20px;
+}
+.menuDownload div:last-child span a{
+	font-size:16px;
+}

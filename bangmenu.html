@@ -1,0 +1,1907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>酷狗音乐_排行榜</title>
+	<link rel="short icon" href="img/images/kugou.ico">
+	<link rel="stylesheet" href="css/bangmenu.css">
+	<link rel="stylesheet" href="css/normal.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bangmenu.js"></script>
+</head>
+<body>
+	<div class="bangMenu">
+	<!-- 跳出登录界面-login -->
+		<div class="login" >
+			<div class="loginWrap">
+				<div ><a href="" class="fr" title="关闭"></a></div>
+				<div class="clear">登录酷狗音乐</div>
+				<div class="mistake"></div>
+				<form action="">
+					<span class="rel ID">账号：</span>
+					<span class="rel mm">密码：</span>
+					<span class="rel forget">忘记密码？</span>
+					<input class="user" type="text" placeholder="用户名/手机/邮箱">
+					<input class="pwd" type="password" placeholder="请输入密码"	>
+					<span class="fl"><input class="che" type="checkbox" value="" checked>  下次自动登录</span>
+					<a href="register.html" class="fr">立即注册</a>
+					<input class="sub" type="button" value="登录" >					
+					<div>
+						<span>其他方式登录:</span>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#">用户协议</a>
+						<a href="#">隐私政策</a>
+					</div>
+				</form>			
+			</div>
+		</div>
+	<!-- header 头部-->
+		<div class="header">
+			<div class="header_main">
+				<div class="logo "><a  href="firstpage.html"><img src="http://static.kgimg.com/public/root/images/logo.png" alt=""></a>
+				</div>
+				<div class="search_input ">
+					<input type="text" placeholder="毛不易 消愁"><span></span>
+				</div>
+
+				<div class="topNav ">
+					<ul>
+						<li><a href="service.html">客服中心</a></li>
+						<li><a href="">招贤纳士</a></li>
+						<li><a href="">会员中心</a></li>
+					</ul>
+				</div>
+
+				<div class="log_reg ">
+					<ul>
+						<li>|</li>
+						<li><input type="submit" class="show" value="登录"></li>
+						<li><a href="register.html">注册</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- navWrap-导航栏 -->
+		<div class="navWrap">
+			<div class="navWrap_main">
+				<div class="homeNav">
+					<ul>
+						<li><a href="firstpage.html">首页</a></li>
+						<li><a href="" style="background-color:#0c8ed9;color:#fff;">榜单</a></li>
+						<li><a href="download.html" >下载客户端</a></li>
+						<li><a href="" class="more">更多 </a>	<ul  class="secondMenu">
+								<li><a href="#">电台</a></li>
+								<li><a href="#">MV</a></li>
+								<li><a href="#">歌单</a></li>
+								<li><a href="#">歌手</a></li>
+							</ul>									
+						</li>
+					</ul>
+				</div>
+				<div class="subNav fr">
+					<ul>
+						<li><a href=""><span></span>音乐直播</a></li>
+						<li><a href=""><span></span>酷狗LIVE</a></li>
+						<li><a href=""><span></span>音乐人</a></li>
+						<li><a href=""><span></span>游戏</a></li>
+						<li><a href=""><span></span>商城</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- menuContent榜单主体 -->
+		<div class="menuContent">
+			<div class="menu">
+			<!-- 侧边栏 menuAside-->
+				<div class="menuAside  fl">
+				<!-- 热门榜单 -->
+					<h3>
+						<div>热门榜单</div>
+						<span class="open "></span>
+					</h3>
+					<ul>
+						<li class="bang bang-show">
+							<a href="#" title="酷狗Top500">
+								<span>&nbsp;</span>
+								<span>酷狗Top500</span> 
+								<span>&nbsp;</span>
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#" title="网络红歌榜">
+								<span>&nbsp;</span>
+								<span>网络红歌榜</span>
+								<span>&nbsp;</span> 
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#" title="DJ热歌榜">
+								<span>&nbsp;</span>
+								<span>DJ热歌榜</span> 
+							</a>
+						</li >
+						<li class="bang">
+							<a href="#" title="华语新歌榜">
+								<span>&nbsp;</span>
+								<span>华语新歌榜</span> 
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#" title="酷狗Top500">
+								<span>&nbsp;</span>
+								<span>酷狗Top500</span> 
+								<span>&nbsp;</span>
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#">
+								<span>&nbsp;</span>
+								<span>网络红歌榜</span> 
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#">
+								<span>&nbsp;</span>
+								<span>DJ热歌榜</span> 
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#">
+								<span>&nbsp;</span>
+								<span>华语新歌榜</span> 
+							</a>
+						</li >			
+						<li class="bang">
+							<a href="#" title="酷狗Top500">
+								<span>&nbsp;</span>
+								<span>酷狗Top500</span> 
+								<span>&nbsp;</span>
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#">
+								<span>&nbsp;</span>
+								<span>网络红歌榜</span> 
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#">
+								<span>&nbsp;</span>
+								<span>DJ热歌榜</span> 
+								<span>&nbsp;</span>
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#">
+								<span>&nbsp;</span>
+								<span>华语新歌榜</span> 
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#">
+								<span>&nbsp;</span>
+								<span>网络红歌榜</span> 
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#">
+								<span>&nbsp;</span>
+								<span>DJ热歌榜</span> 
+								<span>&nbsp;</span>
+							</a>
+						</li>
+						<li class="bang">
+							<a href="#">
+								<span>&nbsp;</span>
+								<span>华语新歌榜</span> 
+							</a>
+						</li>						
+					</ul>
+				<!-- 特色音乐榜 -->
+					<h3>
+						<div>特色音乐榜</div>
+						<span class="open"></span>
+					</h3>
+					<ul>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>华语新歌榜</span> 
+							</a>
+						</li>
+						<li>
+							<a href="" title="酷狗Top500">
+								<span>&nbsp;</span>
+								<span>酷狗Top500</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>网络红歌榜</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>DJ热歌榜</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>华语新歌榜</span> 
+							</a>
+						</li>			
+						<li>
+							<a href="" title="酷狗Top500">
+								<span>&nbsp;</span>
+								<span>酷狗Top500</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>网络红歌榜</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>DJ热歌榜</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>华语新歌榜</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>网络红歌榜</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>DJ热歌榜</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>华语新歌榜</span> 
+							</a>
+						</li>						
+					</ul>
+				<!-- 全球榜 -->
+					<h3>
+						<div>全球榜</div>
+						<span class="open"></span>
+					</h3>
+					<ul>
+						
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>DJ热歌榜</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>华语新歌榜</span> 
+							</a>
+						</li>			
+						<li>
+							<a href="" title="酷狗Top500">
+								<span>&nbsp;</span>
+								<span>酷狗Top500</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>网络红歌榜</span> 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span>&nbsp;</span>
+								<span>华语新歌榜</span> 
+							</a>
+						</li>				
+					</ul>
+
+				</div>
+			<!-- 主要歌单部分 酷狗Top500-->
+				<div class="menuBox fr" >				
+				<!-- title标题 -->
+					<div class="title">
+						<span>酷狗TOP500</span>
+						<span>2017-9-15 更新</span>
+						<a href="" class="fr" title="全部播放"><span></span>播放全部</a>
+					</div>
+				<!-- choice全选 -->
+					<div class="clear choice ">
+						<span>&nbsp;</span>
+						全选
+					</div>
+				<!-- menulist歌曲菜单 -->
+					<div class="menulist">
+						<ul>
+							<li>
+								<div class="current"></div>
+								<div>1</div>
+								<div>校长-带你去旅行</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>		
+								</div>
+														
+							</li>
+							<li>
+								<div class="current "></div>
+								<div>2</div>
+								<div>大壮-我们不一样</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:24</div>			
+								</div>
+								
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>3</div>
+								<div>金志文-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:56</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>4</div>
+								<div>赵雷-成都</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:09</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>5</div>
+								<div>王建房-在人间</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:23</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>6</div>
+								<div>毛不易-消愁</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>7</div>
+								<div>金志文-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:00</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>8</div>
+								<div>杨宗纬、张碧晨-凉凉</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:46</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>9</div>
+								<div>白小白-最美情侣</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>10</div>
+								<div>李玉刚-刚好遇见你</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:06</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>11</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>2:46</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>12</div>
+								<div>梦然-没有你陪伴真的好孤单</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:43</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>13</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:06</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>14</div>
+								<div>周杰伦-告白气球</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>15</div>
+								<div>薛之谦-你还要我怎样</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>16</div>
+								<div>毛不易-像我这样的人（Live）</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>17</div>
+								<div>李圣杰-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>18</div>
+								<div>薛之谦-暧昧</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>19</div>
+								<div>王冕-勉为其难</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>				
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>20 </div>
+								<div>萧敬腾-会痛的石头</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>21 </div>
+								<div>李代沫-到不了</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+						</ul>
+					</div>
+				<!-- download 立即下载-->
+					<div class="menuDownload">
+						<div>查看更多内容，请下载客户端</div>
+						<div>
+							<span><a href="">立即下载</a></span>
+						</div>
+					</div>
+				</div>
+			<!-- 主要歌单部分 网络红歌榜 -->
+				<div class="menuBox fr" style="display:none">				
+				<!-- title标题 -->
+					<div class="title">
+						<span>网络红歌榜</span>
+						<span>2017-9-20 更新</span>
+						<a href="" class="fr"><span></span>播放全部</a>
+					</div>
+				<!-- choice全选 -->
+					<div class="clear choice ">
+						<span>&nbsp;</span>
+						全选
+					</div>
+				<!-- menulist歌曲菜单 -->
+					<div class="menulist" >
+						<ul>
+							<li>
+								<div class="current"></div>
+								<div>1</div>
+								<div>金志文-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:42</div>		
+								</div>
+														
+							</li>
+							<li>
+								<div class="current "></div>
+								<div>2</div>
+								<div>王建房-在人间</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:34</div>			
+								</div>
+								
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>3</div>
+								<div>许嵩-灰色头像</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>2:57</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>4</div>
+								<div>杨宗纬、张碧晨-凉凉</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:19</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>5</div>
+								<div>李玉刚-刚好遇见你</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:23</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>6</div>
+								<div>毛不易-消愁</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:56</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>7</div>
+								<div>金志文-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>2:50</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>8</div>
+								<div>赵雷-成都</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>9</div>
+								<div>白小白-最美情侣</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>10</div>
+								<div>大壮-我们不一样</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:06</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>11</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>2:46</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>12</div>
+								<div>梦然-没有你陪伴真的好孤单</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:43</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>13</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:06</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>14</div>
+								<div>周杰伦-告白气球</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>15</div>
+								<div>薛之谦-你还要我怎样</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>16</div>
+								<div>毛不易-像我这样的人（Live）</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>17</div>
+								<div>李圣杰-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>18</div>
+								<div>薛之谦-暧昧</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>19</div>
+								<div>王冕-勉为其难</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>				
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>20 </div>
+								<div>萧敬腾-会痛的石头</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>21 </div>
+								<div>李代沫-到不了</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+						</ul>
+					</div>
+				<!-- download 立即下载-->
+					<div class="menuDownload">
+						<div>查看更多内容，请下载客户端</div>
+						<div>
+							<span><a href="">立即下载</a></span>
+						</div>
+					</div>
+				</div>
+			<!-- 主要歌单部分 DJ热歌榜-->
+				<div class="menuBox fr" style="display:none">				
+				<!-- title标题 -->
+					<div class="title">
+						<span>DJ热歌榜</span>
+						<span>2017-9-23 更新</span>
+						<a href="#" class="fr" title="播放全部"><span></span>播放全部</a>
+					</div>
+				<!-- choice全选 -->
+					<div class="clear choice ">
+						<span>&nbsp;</span>
+						全选
+					</div>
+				<!-- menulist歌曲菜单 -->
+					<div class="menulist">
+						<ul>
+							<li>
+								<div class="current"></div>
+								<div>1</div>
+								<div>张磊-一厢情愿的不舍</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:32</div>		
+								</div>
+														
+							</li>
+							<li>
+								<div class="current "></div>
+								<div>2</div>
+								<div>刘莱斯-浮生</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:16</div>			
+								</div>
+								
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>3</div>
+								<div>光泽-空心</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:00</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>4</div>
+								<div>胜域-该死的懦弱</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:09</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>5</div>
+								<div>安苏羽-左肩</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:23</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>6</div>
+								<div>JC-说散就散</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>7</div>
+								<div>金志文-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:00</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>8</div>
+								<div>杨宗纬、张碧晨-凉凉</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:46</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>9</div>
+								<div>白小白-最美情侣</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>10</div>
+								<div>李玉刚-刚好遇见你</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:06</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>11</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>2:46</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>12</div>
+								<div>梦然-没有你陪伴真的好孤单</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:43</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>13</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:06</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>14</div>
+								<div>周杰伦-告白气球</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>15</div>
+								<div>薛之谦-你还要我怎样</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>16</div>
+								<div>毛不易-像我这样的人（Live）</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>17</div>
+								<div>李圣杰-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>18</div>
+								<div>薛之谦-暧昧</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>19</div>
+								<div>王冕-勉为其难</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>				
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>20 </div>
+								<div>萧敬腾-会痛的石头</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>21 </div>
+								<div>李代沫-到不了</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+						</ul>
+					</div>
+				<!-- download 立即下载-->
+					<div class="menuDownload">
+						<div>查看更多内容，请下载客户端</div>
+						<div>
+							<span><a href="">立即下载</a></span>
+						</div>
+					</div>
+				</div>
+			<!-- 主要歌单部分 华语新歌榜-->
+				<div class="menuBox fr" style="display:none;" >				
+				<!-- title标题 -->
+					<div class="title">
+						<span>华语新歌榜</span>
+						<span>2017-9-15 更新</span>
+						<a href="" class="fr" title="全部播放"><span></span>播放全部</a>
+					</div>
+				<!-- choice全选 -->
+					<div class="clear choice ">
+						<span>&nbsp;</span>
+						全选
+					</div>
+				<!-- menulist歌曲菜单 -->
+					<div class="menulist">
+						<ul>
+							<li>
+								<div class="current"></div>
+								<div>1</div>
+								<div>校长-带你去旅行</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>		
+								</div>
+														
+							</li>
+							<li>
+								<div class="current "></div>
+								<div>2</div>
+								<div>大壮-我们不一样</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:24</div>			
+								</div>
+								
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>3</div>
+								<div>金志文-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:56</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>4</div>
+								<div>赵雷-成都</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:09</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>5</div>
+								<div>王建房-在人间</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:23</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>6</div>
+								<div>毛不易-消愁</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>7</div>
+								<div>金志文-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:00</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>8</div>
+								<div>杨宗纬、张碧晨-凉凉</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:46</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>9</div>
+								<div>白小白-最美情侣</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>10</div>
+								<div>李玉刚-刚好遇见你</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:06</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>11</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>2:46</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>12</div>
+								<div>梦然-没有你陪伴真的好孤单</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:43</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>13</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:06</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>14</div>
+								<div>周杰伦-告白气球</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>15</div>
+								<div>薛之谦-你还要我怎样</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>16</div>
+								<div>毛不易-像我这样的人（Live）</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>17</div>
+								<div>李圣杰-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>18</div>
+								<div>薛之谦-暧昧</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>19</div>
+								<div>王冕-勉为其难</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>				
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>20 </div>
+								<div>萧敬腾-会痛的石头</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>21 </div>
+								<div>李代沫-到不了</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+						</ul>
+					</div>
+				<!-- download 立即下载-->
+					<div class="menuDownload">
+						<div>查看更多内容，请下载客户端</div>
+						<div>
+							<span><a href="">立即下载</a></span>
+						</div>
+					</div>
+				</div>
+			<!-- 主要歌单部分 酷狗Top500 -->
+				<div class="menuBox fr" style="display:none">				
+				<!-- title标题 -->
+					<div class="title">
+						<span>酷狗Top500</span>
+						<span>2017-9-20 更新</span>
+						<a href="" class="fr"><span></span>播放全部</a>
+					</div>
+				<!-- choice全选 -->
+					<div class="clear choice ">
+						<span>&nbsp;</span>
+						全选
+					</div>
+				<!-- menulist歌曲菜单 -->
+					<div class="menulist">
+						<ul>
+							<li>
+								<div class="current"></div>
+								<div>1</div>
+								<div>金志文-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:42</div>		
+								</div>
+														
+							</li>
+							<li>
+								<div class="current "></div>
+								<div>2</div>
+								<div>王建房-在人间</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:34</div>			
+								</div>
+								
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>3</div>
+								<div>许嵩-灰色头像</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>2:57</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>4</div>
+								<div>杨宗纬、张碧晨-凉凉</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:19</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>5</div>
+								<div>李玉刚-刚好遇见你</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:23</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>6</div>
+								<div>毛不易-消愁</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:56</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>7</div>
+								<div>金志文-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>2:50</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>8</div>
+								<div>赵雷-成都</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>9</div>
+								<div>白小白-最美情侣</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>10</div>
+								<div>大壮-我们不一样</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:06</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>11</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>2:46</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>12</div>
+								<div>梦然-没有你陪伴真的好孤单</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:43</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>13</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:06</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>14</div>
+								<div>周杰伦-告白气球</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>15</div>
+								<div>薛之谦-你还要我怎样</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>16</div>
+								<div>毛不易-像我这样的人（Live）</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>17</div>
+								<div>李圣杰-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>18</div>
+								<div>薛之谦-暧昧</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>19</div>
+								<div>王冕-勉为其难</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>				
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>20 </div>
+								<div>萧敬腾-会痛的石头</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>21 </div>
+								<div>李代沫-到不了</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+						</ul>
+					</div>
+				<!-- download 立即下载-->
+					<div class="menuDownload">
+						<div>查看更多内容，请下载客户端</div>
+						<div>
+							<span><a href="">立即下载</a></span>
+						</div>
+					</div>
+				</div>
+			<!-- 主要歌单部分 网络红歌榜-->
+				<div class="menuBox fr" style="display:none">				
+				<!-- title标题 -->
+					<div class="title">
+						<span>网络红歌榜</span>
+						<span>2017-9-23 更新</span>
+						<a href="#" class="fr" title="播放全部"><span></span>播放全部</a>
+					</div>
+				<!-- choice全选 -->
+					<div class="clear choice ">
+						<span>&nbsp;</span>
+						全选
+					</div>
+				<!-- menulist歌曲菜单 -->
+					<div class="menulist">
+						<ul>
+							<li>
+								<div class="current"></div>
+								<div>1</div>
+								<div>张磊-一厢情愿的不舍</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:32</div>		
+								</div>
+														
+							</li>
+							<li>
+								<div class="current "></div>
+								<div>2</div>
+								<div>刘莱斯-浮生</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:16</div>			
+								</div>
+								
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>3</div>
+								<div>光泽-空心</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:00</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>4</div>
+								<div>胜域-该死的懦弱</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:09</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>5</div>
+								<div>安苏羽-左肩</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:23</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>6</div>
+								<div>JC-说散就散</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>7</div>
+								<div>金志文-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:00</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>8</div>
+								<div>杨宗纬、张碧晨-凉凉</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:46</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>9</div>
+								<div>白小白-最美情侣</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>10</div>
+								<div>李玉刚-刚好遇见你</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:06</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>11</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>2:46</div>			
+								</div>
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>12</div>
+								<div>梦然-没有你陪伴真的好孤单</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>4:43</div>			
+								</div>	
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>13</div>
+								<div>薛之谦-演员</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>5:06</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>14</div>
+								<div>周杰伦-告白气球</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>		
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>15</div>
+								<div>薛之谦-你还要我怎样</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>16</div>
+								<div>毛不易-像我这样的人（Live）</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>17</div>
+								<div>李圣杰-远走高飞</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>18</div>
+								<div>薛之谦-暧昧</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>19</div>
+								<div>王冕-勉为其难</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>				
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>20 </div>
+								<div>萧敬腾-会痛的石头</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+							<li>
+								<div class="current"></div>
+								<div>21 </div>
+								<div>李代沫-到不了</div>
+								<div class="fr">
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div><a href=""></a></div>
+									<div>3:46</div>			
+								</div>			
+							</li>
+						</ul>
+					</div>
+				<!-- download 立即下载-->
+					<div class="menuDownload">
+						<div>查看更多内容，请下载客户端</div>
+						<div>
+							<span><a href="">立即下载</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- footer 尾部-->
+		<div class="footer" >
+			<div class="footer_main">
+				<div class="title">
+					<center>
+					<a href="">关于酷狗</a><span>|</span>
+					<a href="">监督举报</a><span>|</span>
+					<a href="">广告服务</a><span>|</span>
+					<a href="">版权指引</a><span>|</span>
+					<a href="">隐私政策</a><span>|</span>
+					<a href="">用户服务协议</a><span>|</span>
+					<a href="">推广合作</a><span>|</span>
+					<a href="">酷狗音乐人</a><span>|</span>
+					<a href="">酷狗音乐推</a><span>|</span>
+					<a href="">招聘信息</a><span>|</span>
+					<a href="">客服中心</a><span>|</span>
+					<a href="">用户体验提示计划</a>	
+				</center>		
+				</div>
+				<div class="content">
+					<p>我们致力于推动网络正版音乐发展，相关版权合作请联系copyrights@kugou.com</p>
+					<p>信息网络传播视听节目许可证 1910564 增值电信业务经营许可证粤B2-20060339    <a>粤ICP备09017694号-2&nbsp;</a><a href=""></a></p>
+					<p>广播电视节目制作经营许可证（粤）字第01270号    营业性演出许可证穗天演440106026</p>
+					<p>穗公网监备案证第44010650010167    互联网药品信息服务资格证编号（粤）-非经营性-2012-0018</p>
+					<p>Copyright  ©  2004-2017 KuGou-Inc.All Rights Reserved
+                        <a href=""></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
